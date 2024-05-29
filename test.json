@@ -1,0 +1,213 @@
+[
+    {
+      "category": "floor-vacuum", 
+      "title": "Lenovo floor vacuum", 
+      "description": "cool descr", 
+      "model": "E3523fg", 
+      "brand": "Lenovo", 
+      "color": "black", 
+      "price": 12400, 
+      "techs": {
+          "Об'єм пилозбірника": "0.5 л" ,
+          "Рівень шуму": "55 дБ",
+          "Енергоспоживання": "55 Вт",
+          "Час роботи на одному заряді": "180 хв",
+          "Час повного заряджання": "4 години",
+          "Тип прибирання": "суха + мокра",
+          "Акумулятор": "Li-Ion 5200 mAh"
+      }, 
+      "reviews": [
+        {
+            "name": "Ivan",
+            "score": "7",
+            "comment": "Чудовий робот-пилосос"
+        },
+        {
+            "name": "Maria",
+            "score": "6",
+            "comment": "Чудовий робот-пилосос"
+        },
+        {
+            "name": "Vova",
+            "score": "9",
+            "comment": "Чудовий робот-пилосос"
+        },
+        {
+            "name": "Liza",
+            "score": "9",
+            "comment": "Чудовий робот-пилосос"
+        }
+      ],
+      "sales": 235,
+      "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+    },
+    {
+        "category": "floor-vacuum", 
+        "title": "Samsung floor vacuum", 
+        "description": "cool descr", 
+        "model": "F351233fg", 
+        "brand": "Samsung", 
+        "color": "white", 
+        "price": 18100, 
+        "techs": {
+            "Об'єм пилозбірника": "0.5 л" ,
+            "Рівень шуму": "55 дБ",
+            "Енергоспоживання": "55 Вт",
+            "Час роботи на одному заряді": "180 хв",
+            "Час повного заряджання": "4 години",
+            "Тип прибирання": "суха + мокра",
+            "Акумулятор": "Li-Ion 5200 mAh"
+        }, 
+        "reviews": [
+          {
+              "name": "Ivan",
+              "score": "3",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Maria",
+              "score": "4",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Vova",
+              "score": "6",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Liza",
+              "score": "5",
+              "comment": "Чудовий робот-пилосос"
+          }
+        ],
+        "sales": 135,
+        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+      },
+      {
+        "category": "window-vacuum", 
+        "title": "Lulio window vacuum", 
+        "description": "cool descr", 
+        "model": "E3523fg", 
+        "brand": "Lulio", 
+        "color": "black", 
+        "price": 10000, 
+        "techs": {
+            "Об'єм пилозбірника": "0.5 л" ,
+            "Рівень шуму": "55 дБ",
+            "Енергоспоживання": "55 Вт",
+            "Час роботи на одному заряді": "180 хв",
+            "Час повного заряджання": "4 години",
+            "Тип прибирання": "суха + мокра",
+            "Акумулятор": "Li-Ion 5200 mAh"
+        }, 
+        "reviews": [
+          {
+              "name": "Ivan",
+              "score": "4",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Maria",
+              "score": "7",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Vova",
+              "score": "7",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Liza",
+              "score": "9",
+              "comment": "Чудовий робот-пилосос"
+          }
+        ],
+        "sales": 455,
+        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+      },
+      {
+        "category": "window-vacuum", 
+        "title": "Samsung floor vacuum", 
+        "description": "cool descr", 
+        "model": "E3523fg", 
+        "brand": "Lenovo", 
+        "color": "green", 
+        "price": 5400, 
+        "techs": {
+            "Об'єм пилозбірника": "0.5 л" ,
+            "Рівень шуму": "55 дБ",
+            "Енергоспоживання": "55 Вт",
+            "Час роботи на одному заряді": "180 хв",
+            "Час повного заряджання": "4 години",
+            "Тип прибирання": "суха + мокра",
+            "Акумулятор": "Li-Ion 5200 mAh"
+        }, 
+        "reviews": [
+          {
+              "name": "Ivan",
+              "score": "3",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Maria",
+              "score": "3",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Vova",
+              "score": "9",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Liza",
+              "score": "9",
+              "comment": "Чудовий робот-пилосос"
+          }
+        ],
+        "sales": 56,
+        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+      },
+      {
+        "category": "homepod", 
+        "title": "Lenovo homepod", 
+        "description": "cool descr", 
+        "model": "E12323fg", 
+        "brand": "Lenovo", 
+        "color": "white", 
+        "price": 4400, 
+        "techs": {
+            "Об'єм пилозбірника": "0.5 л" ,
+            "Рівень шуму": "55 дБ",
+            "Енергоспоживання": "55 Вт",
+            "Час роботи на одному заряді": "180 хв",
+            "Час повного заряджання": "4 години",
+            "Тип прибирання": "суха + мокра",
+            "Акумулятор": "Li-Ion 5200 mAh"
+        }, 
+        "reviews": [
+          {
+              "name": "Ivan",
+              "score": "7",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Maria",
+              "score": "6",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Vova",
+              "score": "9",
+              "comment": "Чудовий робот-пилосос"
+          },
+          {
+              "name": "Liza",
+              "score": "9",
+              "comment": "Чудовий робот-пилосос"
+          }
+        ],
+        "sales": 485,
+        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+      }
+    
+]
