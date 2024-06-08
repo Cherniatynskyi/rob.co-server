@@ -81,7 +81,7 @@
           }
         ],
         "sales": 135,
-        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+        "photo_urls": ["https://content2.rozetka.com.ua/goods/images/big/359687899.jpg", "qewrqweqweqw"]
       },
       {
         "category": "window-vacuum", 
@@ -123,11 +123,11 @@
           }
         ],
         "sales": 455,
-        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+        "photo_urls": ["https://content2.rozetka.com.ua/goods/images/big/359687899.jpg", "qewrqweqweqw"]
       },
       {
         "category": "window-vacuum", 
-        "title": "Samsung floor vacuum", 
+        "title": "Samsung window vacuum", 
         "description": "cool descr", 
         "model": "E3523fg", 
         "brand": "Lenovo", 
@@ -165,7 +165,7 @@
           }
         ],
         "sales": 56,
-        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+        "photo_urls": ["https://content2.rozetka.com.ua/goods/images/big/359687899.jpg", "qewrqweqweqw"]
       },
       {
         "category": "homepod", 
@@ -207,7 +207,7 @@
           }
         ],
         "sales": 485,
-        "photo_urls": ["aedqweqw", "qewrqweqweqw"]
+        "photo_urls": ["https://content2.rozetka.com.ua/goods/images/big/359687899.jpg", "qewrqweqweqw"]
       }
     
 ]

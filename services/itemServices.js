@@ -2,7 +2,7 @@ import { HttpError } from "../helpers/HttpError.js";
 import { ItemModel } from "../models/itemModel.js";
 
 export const getNew = async (req) => {
-  const {page=1, limit=3} = req.query
+  const {page=1, limit=4} = req.query
   const skip = (page-1) * limit
   const items = await ItemModel.find({}, "" ,{skip, limit});
 
@@ -10,7 +10,7 @@ export const getNew = async (req) => {
 }
 
 export const getTopSales = async (req) => {
-  const {page=1, limit=3} = req.query
+  const {page=1, limit=4} = req.query
   const skip = (page-1) * limit
   const items = await ItemModel.find({}, "" ,{skip, limit}).sort({sales: -1});
 
