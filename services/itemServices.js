@@ -19,7 +19,7 @@ export const getTopSales = async (req) => {
 
 
 export const getCategory = async (req) => {
-    const {page=1, limit=10, category, pricemin=0, pricemax=100000000, color, } = req.query
+    const {page=1, limit=9, category, pricemin=0, pricemax=100000000, color, } = req.query
     const skip = (page-1) * limit
 
     if((color==='all') & (category !== "all")){
