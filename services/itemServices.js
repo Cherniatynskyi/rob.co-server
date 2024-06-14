@@ -19,25 +19,32 @@ export const getTopSales = async (req) => {
 
 
 export const getCategory = async (req) => {
-    const {page=1, limit=9, category, pricemin=0, pricemax=100000000, color, } = req.query
+    const {page=1, limit=6, category, pricemin=0, pricemax=100000000, color, } = req.query
     const skip = (page-1) * limit
 
     if((color==='all') & (category !== "all")){
+      const allItems = await ItemModel.find({category, price: {$lt: pricemax, $gt: pricemin}})
+      const total = allItems.length
       const items = await ItemModel.find({category, price: {$lt: pricemax, $gt: pricemin}}, "" ,{skip, limit});
-      return items
+      return {items, total}
     }
 
     if((color!=='all') & (category === "all")){
+      const allItems = await ItemModel.find({color, price: {$lt: pricemax, $gt: pricemin}})
+      const total = allItems.length
       const items = await ItemModel.find({color, price: {$lt: pricemax, $gt: pricemin}}, "" ,{skip, limit});
-      return items
+      return {items, total}
     }
 
     if((color === 'all') & (category === "all")){
-      console.log(pricemin, pricemax)
+      const allItems = await ItemModel.find({price: {$lt: pricemax, $gt: pricemin}})
+      const total = allItems.length
       const items = await ItemModel.find({price: {$lt: pricemax, $gt: pricemin}}, "" ,{skip, limit});
-      return items
+      return {items, total}
     }
 
+    const allItems = await ItemModel.find({category, color, price: {$lt: pricemax, $gt: pricemin}})
+    const total = allItems.length
     const items = await ItemModel.find({category, color, price: {$lt: pricemax, $gt: pricemin}}, "" ,{skip, limit});
 
   
@@ -45,7 +52,7 @@ export const getCategory = async (req) => {
       throw HttpError(404);
     }
   
-    return items;
+    return {items, total};
 };
 
 
